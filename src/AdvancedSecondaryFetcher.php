@@ -2,7 +2,8 @@
 
 namespace Megamindame\SchoolScraper;
 
-class AdvancedSecondaryFetcher extends \Megamindame\SchoolScraper\SecondaryFetcher {
+class AdvancedSecondaryFetcher extends SecondaryFetcher
+{
 
     /**
      * Raw school data from

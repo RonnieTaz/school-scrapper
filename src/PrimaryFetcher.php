@@ -7,7 +7,7 @@ use DOMXPath;
 use GuzzleHttp\Psr7\Uri;
 use GuzzleHttp\TransferStats;
 
-class PrimaryFetcher extends Fetcher
+class PrimaryFetcher extends BaseFetcher
 {
     protected array $data;
 

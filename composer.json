@@ -21,6 +21,15 @@
         "php": ">= 7.4",
         "guzzlehttp/guzzle": "^7.7",
         "ext-libxml": "*",
-        "ext-dom": "*"
+        "ext-dom": "*",
+        "symfony/dom-crawler": "^5.4"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^v1.23"
     }
 }
